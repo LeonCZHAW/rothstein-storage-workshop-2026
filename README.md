@@ -8,6 +8,8 @@
 
 # rothstein-storage-workshop-2026
 
+![Akten, Microblogging und Graphmodelle](assets/teaser.png)
+
 ## UFO-Akten unter der Lupe
 
 **375 Katalogeinträge. Vier Speichermodelle. Was lässt sich aus den Akten tatsächlich ableiten?**
