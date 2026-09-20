@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+# Lokal erzeugte Prüfberichte nicht als Kursmaterial versionieren.
+/validation/*.json
+/validation/*_local_*.png
+data/work/*
+!data/work/.gitignore
+!data/work/README.md
+
+# Temporäre Mamba-Dateien im Repo-Hauptordner
+/mamba*

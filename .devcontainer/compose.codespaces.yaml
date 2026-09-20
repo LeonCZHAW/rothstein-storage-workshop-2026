@@ -1,0 +1,23 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    init: true
+    command: ["python", "/workspaces/rothstein-storage-workshop-2026/scripts/neo4j_browser.py"]
+    volumes:
+      - .:/workspaces/rothstein-storage-workshop-2026:cached
+    environment:
+      MONGO_HOST: mongodb
+      MONGO_PORT: "27017"
+      MONGO_USERNAME: ${MONGO_USERNAME:-workshop}
+      MONGO_PASSWORD: ${MONGO_PASSWORD:-Storage-Mongo-2026}
+      NEO4J_HOST: neo4j
+      NEO4J_PORT: "7687"
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-Storage-Neo4j-2026}
+      NEO4J_DATABASE: neo4j
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy

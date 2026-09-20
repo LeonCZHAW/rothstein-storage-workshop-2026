@@ -1,0 +1,112 @@
+[
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "DOW-UAP-PR-101",
+    "source_entry_id": "entry_0177dbb4d82c0471a1d9",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-PR122",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [
+      "entry_dcc987c55beec79cec47",
+      "entry_463e0e008b30f0a16251"
+    ],
+    "raw_reference": "FBI-UAP-D014",
+    "source_entry_id": "entry_09ff9a4916893c28f38d",
+    "source_field": "Video Pairing",
+    "source_key": "Western US Event",
+    "status": "ambiguous"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "059UAP000010",
+    "source_entry_id": "entry_0f013a03b2234ab3b0a9",
+    "source_field": "PDF Pairing",
+    "source_key": "State Department UAP Cable 002",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "DOW-UAP-PR-101",
+    "source_entry_id": "entry_3919f2504491b09c0a70",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-PR121",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "059UAP00011",
+    "source_entry_id": "entry_5fb8b7d896b9b1c042a2",
+    "source_field": "PDF Pairing",
+    "source_key": "State Department UAP Cable 003",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "059UAP00012",
+    "source_entry_id": "entry_8113346343b7958b6520",
+    "source_field": "PDF Pairing",
+    "source_key": "State Department UAP Cable 004",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "059UAP00013",
+    "source_entry_id": "entry_8ee0a94c9eeda67565c8",
+    "source_field": "PDF Pairing",
+    "source_key": "State Department UAP Cable 005",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "059UAP00009",
+    "source_entry_id": "entry_9faae0575db8e4ae1255",
+    "source_field": "PDF Pairing",
+    "source_key": "State Department UAP Cable 001",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "DOW-UAP-PR-101",
+    "source_entry_id": "entry_cde9a077250c1a081632",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-PR117",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "DOW-UAP-PR-101",
+    "source_entry_id": "entry_d67799861ef3e5a9d2d5",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-PR118",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "DOW-UAP-PR-101",
+    "source_entry_id": "entry_d949d1cec8d432e380e5",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-PR119",
+    "status": "unresolved"
+  },
+  {
+    "candidate_entry_ids": [
+      "entry_dcc987c55beec79cec47",
+      "entry_463e0e008b30f0a16251"
+    ],
+    "raw_reference": "FBI-UAP-D014",
+    "source_entry_id": "entry_efcf8563cd11394c63b7",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-D079",
+    "status": "ambiguous"
+  },
+  {
+    "candidate_entry_ids": [],
+    "raw_reference": "DOW-UAP-PR-101",
+    "source_entry_id": "entry_f2a248d43130809d89e8",
+    "source_field": "PDF Pairing",
+    "source_key": "DOW-UAP-PR120",
+    "status": "unresolved"
+  }
+]

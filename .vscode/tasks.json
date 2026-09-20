@@ -1,0 +1,91 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Workshop: Setup prüfen",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "scripts/verify_setup.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Weg A: MongoDB und Neo4j in Docker starten (Desktop-Instanz vorher stoppen)",
+      "type": "process",
+      "command": "docker",
+      "args": [
+        "compose",
+        "up",
+        "-d",
+        "--wait"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Nur Weg A. Belegt lokal 27017, 7474 und 7687. Bei Neo4j Desktop die separate MongoDB-Aktion verwenden."
+    },
+    {
+      "label": "Weg A: Datenbanken in Docker stoppen",
+      "type": "process",
+      "command": "docker",
+      "args": [
+        "compose",
+        "stop"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Workshop: Neue Materialien laden",
+      "type": "process",
+      "command": "git",
+      "args": [
+        "pull",
+        "--ff-only"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Wechsel zu Weg B: Neo4j-Container stoppen",
+      "type": "process",
+      "command": "docker",
+      "args": [
+        "compose",
+        "stop",
+        "neo4j"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Nur bei einem vorhandenen lokalen Docker-Setup. Stoppt den Neo4j-Service des aktuellen Compose-Projekts und erhält dessen Daten."
+    },
+    {
+      "label": "Mischbetrieb: nur MongoDB in Docker starten (Neo4j über Desktop)",
+      "type": "process",
+      "command": "docker",
+      "args": [
+        "compose",
+        "up",
+        "-d",
+        "--wait",
+        "mongodb"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Optionaler Mischbetrieb: Neo4j-Container vorher stoppen, danach die Desktop-Instanz verwenden. Nicht im Codespace ausführen."
+    }
+  ]
+}

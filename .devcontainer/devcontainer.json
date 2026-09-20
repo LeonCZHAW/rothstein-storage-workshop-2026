@@ -1,0 +1,50 @@
+{
+  "name": "rothstein-storage-workshop-2026",
+  "dockerComposeFile": [
+    "../compose.yaml",
+    "compose.codespaces.yaml"
+  ],
+  "service": "app",
+  "runServices": [
+    "app",
+    "mongodb",
+    "neo4j"
+  ],
+  "workspaceFolder": "/workspaces/rothstein-storage-workshop-2026",
+  "remoteUser": "vscode",
+  "overrideCommand": false,
+  "shutdownAction": "stopCompose",
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "python scripts/verify_setup.py --wait 120",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb",
+    "storage": "32gb"
+  },
+  "forwardPorts": [
+    8080
+  ],
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/storage-venv/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "jupyter.notebookFileRoot": "${containerWorkspaceFolder}"
+      }
+    }
+  },
+  "portsAttributes": {
+    "8080": {
+      "label": "Neo4j Browser",
+      "onAutoForward": "silent",
+      "protocol": "http"
+    }
+  }
+}

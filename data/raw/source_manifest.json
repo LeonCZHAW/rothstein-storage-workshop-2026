@@ -1,0 +1,14 @@
+{
+  "http_headers": {
+    "Content-Type": "application/octet-stream",
+    "ETag": null,
+    "Last-Modified": "Fri, 07 Aug 2026 11:16:04 GMT"
+  },
+  "resolved_url": "https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=5",
+  "retrieved_at_utc": "2026-09-10T13:33:59.474034+00:00",
+  "row_count": 375,
+  "sha256": "5f5698f132245115dd9d4a5197d2748847f281e466d8b660de036aa3c4b678c7",
+  "size_bytes": 472945,
+  "snapshot_kind": "live_download",
+  "source_url": "https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=5"
+}

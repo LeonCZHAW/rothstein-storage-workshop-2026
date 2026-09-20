@@ -1,0 +1,48 @@
+name: rothstein-storage-workshop-2026
+
+services:
+  mongodb:
+    image: mongo:8.0.30
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME:-workshop}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-Storage-Mongo-2026}
+    command: ["mongod", "--wiredTigerCacheSizeGB", "0.25"]
+    ports:
+      - "127.0.0.1:${MONGO_PORT:-27017}:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+    mem_limit: 1g
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --host 127.0.0.1 --username \"$$MONGO_INITDB_ROOT_USERNAME\" --password \"$$MONGO_INITDB_ROOT_PASSWORD\" --authenticationDatabase admin --eval 'quit(db.adminCommand({ping:1}).ok ? 0 : 1)' >/dev/null"]
+      interval: 10s
+      timeout: 10s
+      start_period: 20s
+      retries: 12
+
+  neo4j:
+    image: neo4j:5.26.30-community
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-Storage-Neo4j-2026}
+      NEO4J_server_memory_heap_initial__size: 256m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 256m
+    ports:
+      - "127.0.0.1:${NEO4J_HTTP_PORT:-7474}:7474"
+      - "127.0.0.1:${NEO4J_PORT:-7687}:7687"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    mem_limit: 2g
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell --address bolt://localhost:7687 --username neo4j --password \"$${NEO4J_AUTH#*/}\" 'RETURN 1;' >/dev/null"]
+      interval: 10s
+      timeout: 15s
+      start_period: 30s
+      retries: 12
+
+volumes:
+  mongodb_data:
+  mongodb_config:
+  neo4j_data:
+  neo4j_logs:

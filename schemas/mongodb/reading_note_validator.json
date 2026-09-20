@@ -1,0 +1,27 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "entry_id", "origin", "review"],
+    "properties": {
+      "_id": {"bsonType": "string"},
+      "entry_id": {"bsonType": "string"},
+      "origin": {"enum": ["workshop_manual_review"]},
+      "review": {
+        "bsonType": "object",
+        "required": ["finding", "statement", "evidence"],
+        "properties": {
+          "finding": {"bsonType": "string", "minLength": 1},
+          "statement": {"bsonType": "string", "minLength": 1},
+          "evidence": {
+            "bsonType": "object",
+            "required": ["asset_id", "pdf_pages"],
+            "properties": {
+              "asset_id": {"bsonType": "string"},
+              "pdf_pages": {"bsonType": "array", "minItems": 1, "items": {"bsonType": ["int", "long"], "minimum": 1}}
+            }
+          }
+        }
+      }
+    }
+  }
+}

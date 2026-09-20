@@ -1,0 +1,59 @@
+name: Storage-Umgebung prüfen
+
+# Bewusst manuell: keine automatischen Läufe bei jeder Materialergänzung.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  integration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Python-Pakete installieren
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pip check
+          python -m ipykernel install --user --name rothstein-storage-workshop-2026 --display-name "Python (rothstein-storage-workshop-2026)"
+      - name: Lokale und Codespaces-Konfiguration auflösen
+        run: |
+          docker compose config --quiet
+          docker compose -f compose.yaml -f .devcontainer/compose.codespaces.yaml config --quiet
+      - name: Datenbankdienste starten
+        run: docker compose up -d --wait --wait-timeout 180
+      - name: Alle Speicher und Daten prüfen
+        run: |
+          python -m unittest discover -s validation -p test_input_verification.py
+          python scripts/verify_setup.py
+          python validation/validate_data.py --with-tinyflux
+          python scripts/execute_setup_notebook.py
+          python validation/validate_sqlite.py --kernel
+          python validation/validate_mongodb.py --server --kernel
+          python validation/validate_neo4j.py --server --kernel
+          python validation/validate_tinyflux.py --kernel
+      - name: Persistenz über einen Neustart prüfen
+        run: |
+          python scripts/persistence_check.py write
+          docker compose stop
+          docker compose up -d --wait --wait-timeout 180
+          python scripts/persistence_check.py read
+          python scripts/persistence_check.py cleanup
+      - name: Auch den Codespaces-Arbeitscontainer prüfen
+        run: |
+          docker compose -f compose.yaml -f .devcontainer/compose.codespaces.yaml build app
+          docker compose -f compose.yaml -f .devcontainer/compose.codespaces.yaml run --rm --user root --workdir /workspaces/rothstein-storage-workshop-2026 app bash .devcontainer/post-create.sh
+      - name: Dienststatus bei Fehlern
+        if: failure()
+        run: |
+          docker compose ps -a
+          docker compose logs --tail 80 mongodb neo4j
+      - name: Testumgebung beenden
+        if: always()
+        run: docker compose -f compose.yaml -f .devcontainer/compose.codespaces.yaml down

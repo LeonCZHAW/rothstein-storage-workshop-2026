@@ -1,0 +1,122 @@
+{
+  "agencies": 10,
+  "agency_counts": {
+    "CIA": 23,
+    "Department of Energy": 5,
+    "Department of State": 9,
+    "Department of War": 190,
+    "Executive Office of the President": 1,
+    "FBI": 104,
+    "Intelligence Community Agency": 1,
+    "NASA": 40,
+    "Office of the Director of National Intelligence": 1,
+    "U.S. Government": 1
+  },
+  "annual_count_points": 820,
+  "annual_count_sum": 292,
+  "annual_eligible_entries": 292,
+  "annual_excluded_entries": 83,
+  "annual_year_max": 2026,
+  "annual_year_min": 1945,
+  "artistic_interpretation_entries": 29,
+  "catalog_entries": 375,
+  "cross_agency_two_hop_examples": [
+    {
+      "entry_ids": [
+        "entry_047251b1c03ba39746e3",
+        "entry_0c2f003ad8b1da78404c",
+        "entry_0d8fcb89c8fb00abccfa"
+      ],
+      "source_keys": [
+        "FBI Photo B004",
+        "USPER Statement about UAP Sighting",
+        "ODNI-UAP-D001"
+      ]
+    },
+    {
+      "entry_ids": [
+        "entry_047251b1c03ba39746e3",
+        "entry_0d8fcb89c8fb00abccfa",
+        "entry_0c2f003ad8b1da78404c"
+      ],
+      "source_keys": [
+        "FBI Photo B004",
+        "ODNI-UAP-D001",
+        "USPER Statement about UAP Sighting"
+      ]
+    },
+    {
+      "entry_ids": [
+        "entry_047251b1c03ba39746e3",
+        "entry_0d8fcb89c8fb00abccfa",
+        "entry_17c16402f5c3ee0a6270"
+      ],
+      "source_keys": [
+        "FBI Photo B004",
+        "ODNI-UAP-D001",
+        "FBI Photo B018"
+      ]
+    },
+    {
+      "entry_ids": [
+        "entry_047251b1c03ba39746e3",
+        "entry_0d8fcb89c8fb00abccfa",
+        "entry_1b7c81e3a451f3580f29"
+      ],
+      "source_keys": [
+        "FBI Photo B004",
+        "ODNI-UAP-D001",
+        "FBI Photo B019"
+      ]
+    },
+    {
+      "entry_ids": [
+        "entry_047251b1c03ba39746e3",
+        "entry_0d8fcb89c8fb00abccfa",
+        "entry_3392aca15255c9d5bd5d"
+      ],
+      "source_keys": [
+        "FBI Photo B004",
+        "ODNI-UAP-D001",
+        "FBI Photo B001"
+      ]
+    }
+  ],
+  "date_precision_counts": {
+    "approximate_within_year": 33,
+    "day": 85,
+    "decade": 1,
+    "missing": 73,
+    "month": 36,
+    "multiple_years": 9,
+    "period_within_year": 7,
+    "year": 131
+  },
+  "distinct_asset_locators": 374,
+  "entry_asset_links": 397,
+  "graph_edges": 1483,
+  "graph_nodes": 764,
+  "media_type_counts": {
+    "AUD": 15,
+    "IMG": 30,
+    "PDF": 211,
+    "VID": 119
+  },
+  "missing_location_entries": 80,
+  "pairing_issue_statuses": {
+    "ambiguous": 2,
+    "unresolved": 11
+  },
+  "release_counts": {
+    "2026-05-08": 158,
+    "2026-05-22": 64,
+    "2026-06-12": 72,
+    "2026-07-10": 40,
+    "2026-08-07": 41
+  },
+  "releases": 5,
+  "resolved_directed_portal_pairings": 336,
+  "snapshot_sha256": "5f5698f132245115dd9d4a5197d2748847f281e466d8b660de036aa3c4b678c7",
+  "unresolved_pairing_tokens": 13,
+  "years_with_eligible_entries": 47
+}

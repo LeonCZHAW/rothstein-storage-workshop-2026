@@ -1,0 +1,14 @@
+{
+  "FBI-UAP-024": {
+    "target_source_key": "FBI-UAP-D024",
+    "reason": "Fehlendes D im PDF-Pairing von FBI-UAP-D025. Die Beschreibung von D025 nennt FBI-UAP-D024 ausdrücklich; D024 verweist umgekehrt auf D025."
+  },
+  "FBI-UAP-026": {
+    "target_source_key": "FBI-UAP-D026",
+    "reason": "Fehlendes D im PDF-Pairing von FBI-UAP-D027. Die Beschreibung von D027 nennt FBI-UAP-D026 ausdrücklich."
+  },
+  "FBI-UAP-027": {
+    "target_source_key": "FBI-UAP-D027",
+    "reason": "Fehlendes D im PDF-Pairing von FBI-UAP-D026. Die Beschreibung von D026 nennt FBI-UAP-D027 ausdrücklich."
+  }
+}

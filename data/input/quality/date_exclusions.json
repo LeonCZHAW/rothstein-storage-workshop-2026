@@ -1,0 +1,583 @@
+[
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_00a8b83d2d5e598e801e",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "NASA-UAP-D025"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_06af00e8a441b6b00e37",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR098"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_0954ddb0ae77cc82150b",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_438"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_0b40f110c793d283da09",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR032"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_0e8342e31e0868df44e0",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR045"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_14d461d6e914fea3ef59",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR047"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_16011b6672ef29e14c01",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_153"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_186f0ec566d7ffe0d0ab",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "July 1952-1960",
+    "source_key": "FBI-UAP-D013"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_1ab82b9f4225830fefa8",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR048"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_1b9a50fc866674f8fcf1",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR069"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_1cce74750587ab8153bf",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOE-UAP-D001"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_1cf4739af4852da7cea4",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_003"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_1d3f0cbb70de604cec5a",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "CIA-UAP-015"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_25f0a77c853be9248d79",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR026"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_27e85cb414d0a5629ccb",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-D088"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_2926c279c3af26d64f20",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR067"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_2baf1571ee82a3090f22",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR037"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_2cafcb21386e70ab1c6c",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR040"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_311c1f094b0451813752",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR029"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_3445e6ec27fe263d4195",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR028"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_3618a72ec55163a0a1c9",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_005"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_366f999e54d0354907b1",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "1948-1950",
+    "source_key": "DOW-UAP-D017"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_38226e927ee56e7ee162",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR064"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_3cd8ea001a3d4495ea96",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "38_143685_box7_Incident_Summaries_1-100"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_3f3d83b24f72d1eb4936",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_403"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_46c8fbeb08ad187cdc21",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_010"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_474ae5c7eddf350eccd8",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_002"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_47e944662bb693d95e84",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "NASA-UAP-D024"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_4cb93586b3e4ee7daf39",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "38_143685_box_Incident_Summaries_101-172"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_4f4d2751e686865050ba",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "1947-1948",
+    "source_key": "DOW-UAP-D100"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_57e3724c4333599c652e",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_SUB_A"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_58594611794eaa0e8dd5",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D004"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_60429881f03d7514c522",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "Undated",
+    "source_key": "CIA-UAP-D023"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_622300eb0548df926266",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR049"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_6575b01a6ffc64b1a8e8",
+    "incident_date_precision": "decade",
+    "incident_date_raw": "1970s",
+    "source_key": "DOE-UAP-D002"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_6ac340c387ddd1a41e9d",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR058"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_71a29e7f0829e912cbf6",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_001"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_7863ab1746bf02ddb63b",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_164"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_7eb69bfdae172df50b6a",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "1962-1963",
+    "source_key": "NASA-UAP-D015"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_7fb4bdca207c9724a3a2",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D006"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_895a0a20795a2baef864",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR023"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_91b223863fe569c30741",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "1950, 1952",
+    "source_key": "DOW-UAP-D098"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_94f6e2769dc5e3929a9f",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR035"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_96592578c40f1ee7d3cd",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_220"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_99c4c236f44a44d5a42e",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "1954-1974",
+    "source_key": "CIA-UAP-003"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_9e1da879c8df5f4a436b",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "255_413270_UFO's_and_Defense_What_Should_we_Prepare_For"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_9e364b14b1b7f2ef6ad4",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR043"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_9f6348b340c446e7f0fc",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D003"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_a33787eeca0c5059bc94",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR042"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_a5bd1ad438141d42a7bc",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "1952-1953",
+    "source_key": "CIA-UAP-002"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_ac7319d72c7e3490f0cb",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR020"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_acf9247365eb67a54042",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-D086"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_b800a2e79163353b54d9",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR044"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_b87521b53790e138e373",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_008"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_ba9fbf0772acdbfba087",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR038"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_bcc2cdfa22e7b020c61b",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-D084"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_bdda80c3a7ad8de7857e",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D007"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_c195cb38304e07f3f844",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR046"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_c2ab144b840838365260",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR034"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_c3bf389e872c8963ec1a",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "August 1952-1967",
+    "source_key": "FBI-UAP-D012"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_c89eafffce3cec585afe",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D054"
+  },
+  {
+    "date_exclusion_reason": "multiple_years",
+    "entry_id": "entry_ce1b30c98a44487ca26a",
+    "incident_date_precision": "multiple_years",
+    "incident_date_raw": "2002, 2023-2024",
+    "source_key": "FBI-UAP-D024"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_d07a43bfe7b1b557f22d",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR027"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_d3b746ec9c54067f14ea",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR056"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_d3f35ab87501f7f72100",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D005"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_d60cdbc56f0ee98f6d96",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_007"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_dcdfea26372c113b7109",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR019"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_dfb3a079d9bc327a5991",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-D008"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_e06c1a7a5ccc9128bf64",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_009"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_e1fe97468ab3d7036488",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR041"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_e291631ce819848db129",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_130"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_e6c87ccd52edc1829e29",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR021"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_e84592b059f34acb1f65",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "38_143685_box_Incident_Summaries_173-233"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_eab161c3b01920cfe0b5",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-D087"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_ec20d9922b09b167e46d",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Serial_449"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_f329ea84b08b78ca5863",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR036"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_f3703aab661eec0c2bcd",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "",
+    "source_key": "DOW-UAP-PR052"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_f41d24f761f62356faaa",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR039"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_f6058963dd5730e81f85",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR031"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_fb9f936906190f8c291c",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_006"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_fc01204ecb45c34a25f3",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "65_HS1-834228961_62-HQ-83894_Section_004"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_fc345ab75eb77a55e896",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR033"
+  },
+  {
+    "date_exclusion_reason": "missing",
+    "entry_id": "entry_fd392406db7d74dc5d17",
+    "incident_date_precision": "missing",
+    "incident_date_raw": "N/A",
+    "source_key": "DOW-UAP-PR022"
+  }
+]

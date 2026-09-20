@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.png binary
+# Den Rohsnapshot bytegenau erhalten (Prüfsummen gelten auch unter Windows).
+data/raw/pursue_catalog.csv -text
+data/microblogging/** -text

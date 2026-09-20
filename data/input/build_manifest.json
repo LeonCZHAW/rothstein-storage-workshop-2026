@@ -1,0 +1,25 @@
+{
+  "id_scheme": "sha256(release_date|normalized_source_key), first 20 hex; catalog-entry identity",
+  "outputs_sha256": {
+    "catalog_entries.jsonl": "290796bbd474fd3712b29988c0f23f041eeba376a78fdbc380494c1e57d3c4c8",
+    "document/catalog_documents.jsonl": "e75edc0a3ab9d2496bed674eae8c25d16c5a27185ccc2cdfb1ec4b8b5768dfed",
+    "graph/edges.jsonl": "c10760462f62f0eb8d785543bfda0daac231fe5825a39b7d2aae47b34bd3ac69",
+    "graph/nodes.jsonl": "a00258fca81580308a84693c0b6468187726e9bc2f1c093866e5faa7ece39993",
+    "quality/date_exclusions.json": "610482d1c8600a025bc735975e62221091bc204654aeb58be4b52a1e29341db4",
+    "quality/duplicate_source_keys.json": "99dfc0b533fdc8b9d601045fa6c54b6b9fe3e86cbd560acfd36ff8799e8c90ca",
+    "quality/unresolved_pairings.json": "3766f3bb2d13077b6af9824c866568fbd70710a68c8964be537698f021efb8f4",
+    "reference_metrics.json": "ac278d3d57317319058c8a20fc177a52c3c6557b81441fcc98e4f2df39503348",
+    "relational/agencies.csv": "5c24cb00bad0794b26d3837a32f9bbfacf5c858910167b97ebbf04bc064da35e",
+    "relational/assets.csv": "7c6a49ba55f7353acd40fb10fced51826de9c7e90fc16c0c28b28f203cb849e1",
+    "relational/catalog_entries.csv": "61d95880b2cd72578860d775365d863a506a0a82307209557b4fbb6884829c2b",
+    "relational/entry_assets.csv": "295f07030251ba69b007f3a96807fb9bc8bfe5fb0f37ae5d7c21db14d28010ef",
+    "relational/portal_pairings.csv": "98d93e0547791e5b3ee3b04009d971c80f419163140dbae8abcfa6f9802efb33",
+    "relational/releases.csv": "57d5019df4f4598bb1d26bd2179464d535bb59d836636ec005c827a0a131765b",
+    "timeseries/annual_catalog_counts.csv": "6dd625702717b42a997558468e1eada63c66f8b5cb017b473493337971903d7d"
+  },
+  "pipeline_sha256": "677b3d69c4f21d55b1c6e2313993b93b98886d150ef7ed006d963a8f5ef6f1e8",
+  "pipeline_version": "1.0.0",
+  "reference_aliases_sha256": "58a9324ca3b6eb5e05376c05e1e3dad1b8db12f42356c8e0abe226669cabbf26",
+  "source_sha256": "5f5698f132245115dd9d4a5197d2748847f281e466d8b660de036aa3c4b678c7",
+  "two_digit_year_rule": "100-year window ending in 2026"
+}

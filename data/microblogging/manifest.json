@@ -1,0 +1,85 @@
+{
+  "source_archive": "06_Storage(1).zip",
+  "source_archive_sha256": "d42baf85372912aac18a40afa73f1d7b57180dd3ac0f2bc3950b9f13e2f13628",
+  "description": "Unveränderte Eingabedateien des bereitgestellten Microblogging-Beispiels; erzeugte Datenbankdateien werden nicht übernommen.",
+  "files": [
+    {
+      "path": "document/follows.jsonl",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/document/follows.jsonl",
+      "size_bytes": 191670,
+      "sha256": "a5471b96bdb86ca0c3ab294cb0380dfbd423798d1a37bb1c3911928767ed1c33"
+    },
+    {
+      "path": "document/posts.jsonl",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/document/posts.jsonl",
+      "size_bytes": 228336,
+      "sha256": "c76758bb1293485b141dc79023be01aed1a9092007aa72560aaf0cdfc3a10ef1"
+    },
+    {
+      "path": "document/users.jsonl",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/document/users.jsonl",
+      "size_bytes": 14292,
+      "sha256": "7b891fd0bf7558d40c745ea0fe51cc66210f927f988d5ad840ab7c90fa874317"
+    },
+    {
+      "path": "graph/edges.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/graph/edges.csv",
+      "size_bytes": 234308,
+      "sha256": "97aee78e39bdd1b1a8788f43bb184c0c51fd1a2514815a75f69868b6ab89a9b8"
+    },
+    {
+      "path": "graph/nodes.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/graph/nodes.csv",
+      "size_bytes": 17977,
+      "sha256": "d46163f3effa3fab254ebf1bdb2e1297d3c6dff5e1fe7de8e889ac3cfac683fe"
+    },
+    {
+      "path": "relational/comments.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/comments.csv",
+      "size_bytes": 45628,
+      "sha256": "62b4a2f67de8327060d71bbdacd32add9f321fb7414d9137ed09091a5500a564"
+    },
+    {
+      "path": "relational/datenbankmodell.png",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/datenbankmodell.png",
+      "size_bytes": 52757,
+      "sha256": "264d0a5582bdb2920a46eb6c17a91b0312e3428f1f64f2b7262d4cc3699ea703"
+    },
+    {
+      "path": "relational/datenbankmodell.xml",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/datenbankmodell.xml",
+      "size_bytes": 6050,
+      "sha256": "ce779177cd3a4f1eb897cc67f81b938bb5c4d3a887028684e4b213e71cb1862e"
+    },
+    {
+      "path": "relational/follows.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/follows.csv",
+      "size_bytes": 54585,
+      "sha256": "fa6e04ff480a8f5625986dc488ebdb1a9aa674002d0ba10c9f2e59615b074ae0"
+    },
+    {
+      "path": "relational/likes.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/likes.csv",
+      "size_bytes": 39897,
+      "sha256": "3f63167a74f8c373214876c655a08c788a182429a7f46a83ac1cde7e490c5703"
+    },
+    {
+      "path": "relational/posts.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/posts.csv",
+      "size_bytes": 75479,
+      "sha256": "96af1cf3debccc3879930ebf69da6adca08e5f8bedc513016d0f18ac93677179"
+    },
+    {
+      "path": "relational/users.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/relational/users.csv",
+      "size_bytes": 5320,
+      "sha256": "3c1d225f095b4b9fa162334d283d31ce7b4257190a4197cab624c8620baca116"
+    },
+    {
+      "path": "timeseries/daily_activity.csv",
+      "source_path": "06_Storage/Beispiel_Microblogging-Plattform/data/timeseries/daily_activity.csv",
+      "size_bytes": 122793,
+      "sha256": "a9ae34d6f112c33e3759e667747f469de21417e7d45a5be717ca26dab707b5ca"
+    }
+  ]
+}
