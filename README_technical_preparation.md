@@ -208,6 +208,31 @@ Sobald das Repo auf GitHub bereitsteht:
 
 Für diesen Browser-Weg benötigst Du auf Deinem Rechner weder Docker noch Conda oder eine lokale Datenbankinstallation. Codespaces verwendet eine Python-Umgebung unter `/opt/storage-venv`; ein zusätzliches `conda activate` ist dort nicht erforderlich. Die festgelegten Python-Paketversionen stammen wie lokal aus derselben `requirements.txt`. Lokal bindet `environment.yml` diese Datei ein; Codespaces installiert sie in die vorbereitete Python-3.12-Umgebung. GitHub betreibt die Docker-Container auf seinen Servern; auf Deinem Rechner ist Docker dafür nicht erforderlich.
 
+### Falls im Notebook ein Python-Paket fehlt
+
+Erscheint nach Abschluss der Einrichtung beispielsweise `ModuleNotFoundError: No module named 'pandas'`, gehe so vor:
+
+1. **Kernel prüfen:** Wähle im Notebook oben rechts **Python (rothstein-storage-workshop-2026)** oder die Python-Umgebung **storage-venv**. Mit dieser Notebook-Zelle kannst Du die Auswahl prüfen:
+
+   ```python
+   import sys
+   print(sys.executable)
+   ```
+
+   Die Ausgabe muss `/opt/storage-venv/bin/python` sein.
+
+2. **Fehlende Pakete installieren:** Wenn trotz richtigem Kernel ein Paket fehlt, öffne **Terminal → Neues Terminal** und führe dort diesen Befehl aus:
+
+   ```bash
+   /opt/storage-venv/bin/python -m pip install -r /workspaces/rothstein-storage-workshop-2026/requirements.txt
+   ```
+
+   Damit werden alle Pakete aus der gemeinsamen `requirements.txt` in die vorgesehene Codespaces-Umgebung installiert. Warte den erfolgreichen Abschluss ab. Bei einer Fehlermeldung zuerst die letzten Zeilen der Installationsausgabe prüfen.
+
+3. **Kernel neu starten:** Klicke oben im Notebook auf **Restart** und führe die Zellen erneut von oben aus.
+
+### Neo4j Browser öffnen und Codespace beenden
+
 Innerhalb von Codespaces lauten die Datenbank-Hosts `mongodb` und `neo4j`. Die Hilfsfunktionen lesen sie automatisch aus der Containerkonfiguration. Es ist keine manuelle Portweiterleitung für die Notebook-Abfragen nötig. Für die Graphansicht unten **Ports → 8080 (Neo4j Browser) → Open in Browser** wählen. Auf der Startseite **Neo4j Browser öffnen** anklicken und mit Benutzer `neo4j` sowie Deinem Datenbankpasswort anmelden (Standard: `Storage-Neo4j-2026`). Die Verbindungsadresse ist vorbereitet. Port 8080 bleibt **Private / HTTP**. Die [Schritt-für-Schritt-Anleitung](docs/setup/NEO4J_START.md#weg-c-codespaces) erklärt auch den einmaligen Neuaufbau bestehender Codespaces. Eine lokale Desktop-Instanz wird dafür nicht gestartet. Der oben genannte `localhost`-Link gehört nur zu Weg A.
 
 Beim erneuten Öffnen eines gestoppten Codespaces wird der Setup-Check wieder ausgeführt. Zum Beenden **Codespaces: Stop Current Codespace** wählen oder den Codespace auf GitHub stoppen. Die lokalen `docker compose`-Befehle gehören zu Weg A; im Arbeitscontainer ist kein Docker-Client vorgesehen.
